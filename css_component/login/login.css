@@ -1,0 +1,46 @@
+@import "./login-responsive.css";
+@import "./login-animation.css";
+
+#username, #password, #submitButton, #levelUser, #warningForm {
+   /* padding: 10px; */
+   margin-top: 10px
+}
+
+#kotakLogin {
+   /* width: 80%; */
+   /* margin: 7.5% auto auto auto; */
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   position: relative;
+   top: auto;
+   background-color: white;
+   padding: 9px 20px 16px;
+   border-radius: 15px;
+   box-shadow: 0 0 20px 0 #3d3d3d;
+   /* animation-name: datang;
+   animation-duration: 1s; */
+   font-size: larger;
+   font-family: 'Segoe UI';
+}
+
+#submitButton {
+   padding: 13px 30px 13px 30px;
+   width: 85%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#warningForm {
+   width: 100%;
+   text-align: center;
+}
+
+#imageForm {
+   /* width: 50%; */
+   border-radius: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}

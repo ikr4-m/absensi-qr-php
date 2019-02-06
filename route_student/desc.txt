@@ -1,0 +1,4 @@
+Menu: Scanner
+Route:
+1. PC = Login > Token Write > Verified
+2. Smartphone = Scan > Login > Verified

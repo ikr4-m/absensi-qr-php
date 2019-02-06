@@ -1,0 +1,29 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   #kotakLogin { width: 80%; margin-top: 17%; }
+   #imageForm { width: 60% }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   #kotakLogin { width: 80%; margin-top: 15%; }
+   #imageForm { width: 40% }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   #kotakLogin { width: 60%; margin-top: 11.3%; }
+   #imageForm { width: 40% }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   #kotakLogin { width: 50% ; margin-top: 8.5%; }
+   #imageForm { width: 45% }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   #kotakLogin { width: 50%; margin-top: 7.5%; }
+   #imageForm { width: 45% }
+}

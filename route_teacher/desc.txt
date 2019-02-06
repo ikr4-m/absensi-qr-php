@@ -1,0 +1,9 @@
+Menu (Left):
+1. Beranda (statistik)
+2. Live/Mulai Absen (akan berubah menjadi "Absen [Live]" apabila sedang terjadi absensi)
+3. Riwayat Absensi (cek kehadiran dengan spesifikasi tanggal dan mapel).
+4. Rekap Absensi (Rencananya dalam bentuk XLSX nanti)
+
+Menu (Right):
+1. Nama Guru
+2. Log Out

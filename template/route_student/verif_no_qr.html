@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!-- JS -->
+   <script src="../../js/jquery.min.js"></script>
+   <script src="../../js/bootstrap.min.js"></script>
+   <script>
+      $(() => {
+         $("#kotakScan").animate({ opacity: 1 }, 250);
+         setTimeout(() => {
+            var list_id = ["#kotakScan", "#kotakScan p", "#tokenForm", "#submitButton"], i = 500;
+            list_id.forEach(x => { $(x).animate({ opacity: 1 }, i); i += 200; })
+         }, 250);
+      })
+   </script>
+   <!-- CSS -->
+   <link rel="stylesheet" href="../../css/bootstrap.min.css">
+   <link rel="stylesheet" href="verif_no_qr.css">
+   <link rel="stylesheet" href="verif_no_qr-responsive.css">
+   <title>Absensi Berbasis Scanner</title>
+</head>
+
+<body style="background-color: #a1a1a1">
+   <div class="container">
+      <form action="" method="post" class="form-group" id="kotakScan">
+         <p>Masukkan token yang tertera pada layar.</p>
+         <input type="text" name="tokenized" id="tokenForm" class="form-control">
+         <input type="submit" value="Submit" id="submitButton" class="btn btn-dark">
+      </form>
+   </div>
+</body>
+
+</html>

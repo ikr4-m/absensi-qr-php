@@ -1,0 +1,29 @@
+@import "test_login-responsive.css";
+
+#verifSiswa {
+   background-color: white;
+   display: block;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   /* width: 60%; */
+   border-radius: 15px;
+   padding: 36px;
+}
+#verifSiswa p {
+   text-align: center;
+   /* padding: 0px; */
+   margin-bottom: 12px;
+}
+#logoutSubmit {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 7px 31px;
+}
+
+/* Keperluan animasi */
+
+#verifSiswa, #verifSiswa p, #logoutSubmit {
+   opacity: 0;
+}
